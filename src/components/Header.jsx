@@ -33,7 +33,7 @@ export const Header = () => {
 
   return (
     <header>
-      <nav className="bg-white border-gray-600 dark:bg-gray-900">
+      <nav className="bg-white border-gray-600 dark:bg-gray-900 fixed top-0 left-0 right-0">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link to="/" className="flex items-center">
             <img src={Logo} className="h-8 mr-2" alt="ScreenHub Logo" />
